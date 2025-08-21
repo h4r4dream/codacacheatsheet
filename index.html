@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
+    <title>cheat sheet html/css</title>
+</head>
+<body>
+    <h1>The Cheat Sheet</h1>
+
+    <section id="HTML">
+        <h2>HTML</h2>
+        <article id="html-elements">
+            <h3>HTML Elements</h3>
+                <div class="subsection">
+                    <h4>List item elements</h4>
+                    <ul>
+                        <li><code>&lt;ul&gt;</code> - Defines an unordered list.</li>
+                        <li><code>&lt;ol&gt;</code> - Defines an ordered list.</li>
+                        <li><code>&lt;li&gt;</code> - Defines a list item.</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h4>Text content elements</h4>
+                    <ul>
+                        <li><code>&lt;p&gt;</code> - Defines a paragraph.</li>
+                        <li><code>&lt;h1&gt; to &lt;h6&gt;</code> - Defines HTML headings.</li>
+                        <li><code>&lt;blockquote&gt;</code> - Defines a section that is quoted from another source.</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h4>Video/Audio elements</h4>
+                    <ul>
+                        <li><code>&lt;video&gt;</code> - Defines a video or movie.</li>
+                        <li><code>&lt;source&gt;</code> - Specifies multiple media resources for elements like &lt;video&gt; and &lt;audio&gt;.</li>
+                        <li><code>&lt;controls&gt;</code> - Adds video controls, like play, pause, and volume.</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h4>Emphasis elements</h4>
+                    <ul>
+                        <li><code>&lt;strong&gt;</code> - Defines important text.</li>
+                        <li><code>&lt;em&gt;</code> - Defines emphasized text.</li>
+                        <li><code>&lt;mark&gt;</code> - Defines marked or highlighted text.</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h4>Form elements</h4>
+                    <ul>
+                        <li><code>&lt;form&gt;</code> - Defines an HTML form for user input.</li>
+                        <li><code>&lt;input&gt;</code> - Defines an input control.</li>
+                        <li><code>&lt;label&gt;</code> - Defines a label for an &lt;input&gt; element.</li>
+                        <li><code>&lt;button&gt;</code> - Defines a clickable button.</li>
+                        <li><code>&lt;select&gt;</code> - Defines a drop-down list.</li>
+                        <li><code>&lt;option&gt;</code> - Defines an option in a drop-down list.</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h4>Link elements</h4>
+                    <ul>
+                        <li><code>&lt;a&gt;</code> - Defines a hyperlink.</li>
+                        <li><code>&lt;link&gt;</code> - Defines the relationship between a document and an external resource (most used to link to stylesheets).</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h4>Image elements</h4>
+                    <ul>
+                        <li><code>&lt;img&gt;</code> - Embeds an image in the document.</li>
+                        <li><code>&lt;src&gt;</code> - specifies the source of the image</li>
+                        <li><code>&lt;alt&gt;</code> - provides alternative text for the image</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h4>Attributes</h4>
+                    <ul>
+                        <li><code>class</code> - Specifies one or more class names for an element.</li>
+                        <li><code>id</code> - Specifies a unique id for an element.</li>
+                    <li><code>style</code> - Specifies inline CSS styles for an element.</li>
+                    </ul>
+                </div>
+        </article>
+
+        <article id="html-structure">
+            <h3>HTML Structure</h3>
+                <div class="subsection">
+                    <h4>HTML Boilerplate</h4>
+                        <ul>
+                            <li><code>&lt;!DOCTYPE html&gt;</code> - Defines the document type and version of HTML.</li>
+                            <li><code>&lt;html&gt;</code> - The root element of an HTML page.</li>
+                            <li><code>&lt;head&gt;</code> - Contains meta-information about the document.</li>
+                        <li><code>&lt;body&gt;</code> - Contains the content of the document.</li>
+                        </ul>
+                </div>
+
+                <div class="subsection">
+                        <h4>Meta Tags</h4>
+                        <ul>
+                            <li><code>&lt;meta&gt;</code> - Defines metadata about an HTML document.</li>
+                            <li><code>&lt;title&gt;</code> - Specifies the title of the document (shown in the browser's title bar or tab).</li>
+                        <li><code>&lt;description&gt;</code> - Provides a brief description of the page (used by search engines).</li>
+                        <li><code>&lt;viewport&gt;</code> - Controls the layout on mobile browsers.</li>
+                        </ul>
+                </div>
+
+                <div class="subsection">
+                    <h4>HTML Comments</h4>
+                    <ul>
+                        <li><code>&lt;!-- Comment --&gt;</code> - Defines a comment in HTML (not displayed in the browser).</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h4>HTML Entities</h4>
+                        <ul>
+                            <li><code>&amp;</code> - Represents the ampersand (&) character.</li>
+                            <li><code>&lt;</code> - Represents the less-than (<) character.</li>
+                            <li><code>&gt;</code> - Represents the greater-than (>) character.</li>
+                        <li><code>&quot;</code> - Represents the double-quote (") character.</li>
+                        <li><code>&apos;</code> - Represents the single-quote (') character.</li>
+                        </ul>
+                </div>
+
+            <div class="subsection">
+                <h4>Anchor Elements</h4>
+                <ul>
+                    <li><code>&lt;a&gt;</code> - Defines a hyperlink.</li>
+                    <li><code>&lt;link&gt;</code> - Defines the relationship between a document and an external resource (most used to link to stylesheets).</li>
+                </ul>
+            </div>
+
+        </article>
+
+        <article id="html-semantic-elements">
+            <div class="subsection">
+                <h3>HTML Semantic Elements</h3>
+                    <ul>
+                        <li><code>&lt;header&gt;</code> - Represents introductory content or a group of navigational links.</li>
+                        <li><code>&lt;nav&gt;</code> - Defines a set of navigation links.</li>
+                        <li><code>&lt;main&gt;</code> - Represents the main content of the document.</li>
+                        <li><code>&lt;article&gt;</code> - Represents a self-contained composition in a document.</li>
+                        <li><code>&lt;section&gt;</code> - Defines a section in a document.</li>
+                        <li><code>&lt;aside&gt;</code> - Represents content that is tangentially related to the content around it.</li>
+                        <li><code>&lt;footer&gt;</code> - Represents the footer for its nearest sectioning content or sectioning root element.</li>
+                    </ul>
+            </div>
+
+        </article>
+
+        <article id="html-tables">
+            <div class="subsection">
+            <h3>HTML Tables</h3>
+                <ul>
+                    <li><code>&lt;table&gt;</code> - Defines a table.</li>
+                    <li><code>&lt;tbody&gt;</code> - Groups the body content in a table.</li>
+                    <li><code>&lt;tr&gt;</code> - Defines a table row.</li>
+                    <li><code>&lt;td&gt;</code> - Defines a table data element.</li>
+                    <li><code>&lt;th&gt;</code> - Defines a table header cell.</li>
+                    <li><code>&lt;caption&gt;</code> - Defines a table caption.</li>
+                    <li><code>&lt;colspan&gt;</code> - Defines the number of columns a cell should span.</li>
+                    <li><code>&lt;rowspan&gt;</code> - Defines the number of rows a cell should span.</li>
+                    <li><code>&lt;thead&gt;</code> - Groups the header content in a table.</li>
+                    <li><code>&lt;tfoot&gt;</code> - Groups the footer content in a table.</li>
+                </ul>
+            </div>
+
+        </article>
+    </section>
+
+    <section id="CSS">
+        <h2>CSS</h2>
+        <article id="css-selectors">
+            <div class="subsection">
+                <h3>CSS Selectors</h3>
+                <ul>
+                    <li><code>*</code> - Universal selector (selects all elements).</li>
+                    <li><code>element</code> - Type selector (selects all elements of a given type).</li>
+                    <li><code>.class</code> - Class selector (selects all elements with a given class).</li>
+                    <li><code>#id</code> - ID selector (selects a single element with a given ID).</li>
+                    <li><code>[attribute]</code> - Attribute selector (selects elements with a specific attribute).</li>
+                    <li><code>:hover</code> - Pseudo-class (selects elements when hovered over).</li>
+                    <li><code>::before</code> - Pseudo-element (selects content before an element).</li>
+                </ul>
+            </div>
+
+            <div class="subsection">
+                <h3>Selector specificity</h3>
+                <p>Selector specificity determines which CSS rule is applied when multiple rules match the same element. It is calculated based on the types of selectors used in a rule:</p>
+                <ul>
+                    <li>Inline styles (added directly to an element) have the highest specificity.</li>
+                    <li>ID selectors have a higher specificity than class selectors.</li>
+                    <li>Class selectors have a higher specificity than type selectors.</li>
+                    <li>Universal selectors have the lowest specificity.</li>
+                </ul>
+            </div>
+
+            <div class="subsection">
+                <h3>CSS link element</h3>
+                <p>The <code>&lt;link&gt;</code> element is used to link external resources, such as stylesheets, to an HTML document. It is placed within the <code>&lt;head&gt;</code> section of the document.</p>
+                <ul>
+                    <li><code>rel</code> - Specifies the relationship between the current document and the linked resource (e.g., <code>stylesheet</code>).</li>
+                    <li><code>href</code> - Specifies the URL of the linked resource.</li>
+                <li><code>type</code> - Specifies the MIME type of the linked resource (e.g., <code>text/css</code>).</li>
+                </ul>
+            </div>
+
+        </article>
+
+        <article id="css-box-model">
+            <div class="subsection">
+                <h3>CSS Box Model</h3>
+                <p>The CSS box model describes the rectangular boxes generated for elements in the document tree and consists of the following areas:</p>
+                <ul>
+                    <li><strong>Content</strong> - The innermost area where text and images appear.</li>
+                    <li><strong>Padding</strong> - The space between the content and the border, inside the element.</li>
+                    <li><strong>Border</strong> - A line surrounding the padding (if any) and content.</li>
+                    <li><strong>Margin</strong> - The outermost space around the element, separating it from other elements.</li>
+                </ul>
+            </div>
+
+            <div class="subsection">
+                <h3>Box Model Properties</h3>
+                <p>The following CSS properties are used to control the box model:</p>
+                <ul>
+                    <li><code>width</code> - Sets the width of the content area.</li>
+                    <li><code>height</code> - Sets the height of the content area.</li>
+                    <li><code>padding</code> - Sets the padding space around the content.</li>
+                    <li><code>border</code> - Sets the border around the padding and content.</li>
+                    <li><code>margin</code> - Sets the margin space outside the border.</li>
+                </ul>
+            </div>
+
+            <div class="subsection">
+                <h3>Box Model Sizing</h3>
+                <p>Box model sizing can be affected by the following CSS properties:</p>
+                <ul>
+                    <li><code>box-sizing</code> - Defines how the width and height of an element are calculated.</li>
+                    <li><code>overflow</code> - Controls what happens to content that overflows the element's box.</li>
+                </ul>
+            </div>
+
+            <div class="subsection">
+                <h3>CSS margin collapse</h3>
+                <p>Margin collapse is a behavior in CSS where the vertical margins of block-level elements can combine (or "collapse") into a single margin. This can occur in the following situations:</p>
+                <ul>
+                    <li>When two block-level elements are adjacent to each other (e.g., one above the other).</li>
+                    <li>When a block-level element is the first or last child of its parent.</li>
+                    <li>When a block-level element has no border, padding, or content.</li>
+                </ul>
+            </div>
+
+            <div class="subsection">
+                <h3>CSS auto keyword</h3>
+                <p>The <code>auto</code> keyword in CSS is used to enable the browser to calculate a value automatically. It can be applied to various CSS properties, including:</p>
+                <ul>
+                    <li><code>width</code> and <code>height</code> - When set to <code>auto</code>, the browser determines the size of the element based on its content and surrounding elements.</li>
+                    <li><code>margin</code> - Setting the margin to <code>auto</code> can center an element horizontally within its container.</li>
+                    <li><code>position</code> - When used with <code>position: absolute</code>, <code>auto</code> can allow the element to be positioned based on its nearest positioned ancestor.</li>
+                </ul>
+            </div>
+
+            <div class="subsection">
+                <h3>CSS overflow property</h3>
+                <p>The <code>overflow</code> property in CSS controls how content that overflows an element's box is handled. It can take the following values:</p>
+                <ul>
+                    <li><code>visible</code> - The content is not clipped and may overflow the element's box.</li>
+                    <li><code>hidden</code> - The content is clipped, and no scrollbars are provided.</li>
+                    <li><code>scroll</code> - The content is clipped, but scrollbars are provided to view the overflowing content.</li>
+                    <li><code>auto</code> - The browser determines whether to provide scrollbars based on the content size.</li>
+                </ul>
+            </div>  
+
+            <div class="subsection">
+            <h3>CSS visibility property</h3>
+            <p>The <code>visibility</code> property in CSS controls the visibility of an element without affecting its layout. It can take the following values:</p>
+            <ul>
+                <li><code>visible</code> - The element is visible.</li>
+                <li><code>hidden</code> - The element is not visible, and it does not take up any space in the layout.</li>
+                <li><code>collapse</code> - For table rows and columns, this value removes the element from the layout (similar to <code>display: none</code>).</li>
+            </ul>
+            </div>
+        </article>
+
+        <article id="css-display-positioning">
+            <div class="subsection">
+            <h3>CSS Display and positioning</h3>
+            <p>CSS display and positioning properties control how elements are displayed and positioned within the document. Here are some key properties:</p>
+            </div>
+
+            <div class="subsection">
+                <h4>CSS Z-index property</h4>
+                <p>The <code>z-index</code> property in CSS controls the stacking order of elements that overlap. It can take the following values:</p>
+                <ul>
+                    <li><code>auto</code> - The default value, which means the element is stacked according to the order in the HTML.</li>
+                    <li><code>number</code> - A positive or negative integer that determines the element's stack level. Higher values are stacked on top of lower values.</li>
+                </ul>
+            </div>
+
+            <div class="subsection">
+                <h4>Fixed CSS Positioning</h4>
+                <p>Fixed positioning is a CSS positioning method that allows you to position an element relative to the viewport, meaning it stays in the same place even when the page is scrolled. Here are some key points about fixed positioning:</p>
+                <ul>
+                    <li>To use fixed positioning, set the <code>position</code> property to <code>fixed</code>.</li>
+                    <li>Fixed elements are removed from the normal document flow, so they do not affect the position of other elements.</li>
+                    <li>You can use the <code>top</code>, <code>right</code>, <code>bottom</code>, and <code>left</code> properties to specify the position of a fixed element.</li>
+                </ul>
+            </div>
+
+            <div class="subsection">
+                <h4>CSS display property</h4>
+                <p>The <code>display</code> property in CSS determines how an element is displayed on the page. It can take the following values:</p>
+                <ul>
+                    <li><code>block</code> - The element is displayed as a block-level element, taking up the full width available.</li>
+                    <li><code>inline</code> - The element is displayed as an inline element, taking up only as much width as necessary.</li>
+                    <li><code>inline-block</code> - The element is displayed as an inline-level block container.</li>
+                    <li><code>none</code> - The element is not displayed at all (it is removed from the document flow).</li>
+                </ul>
+            </div>
+
+            <div class="subsection">
+                <h4>CSS position: absolute</h4>
+                <p>The <code>position: absolute</code> property in CSS allows you to position an element relative to its nearest positioned ancestor (i.e., an ancestor with a position other than <code>static</code>). Here are some key points about absolute positioning:</p>
+                <ul>
+                    <li>To use absolute positioning, set the <code>position</code> property to <code>absolute</code>.</li>
+                    <li>Absolute elements are removed from the normal document flow, so they do not affect the position of other elements.</li>
+                    <li>You can use the <code>top</code>, <code>right</code>, <code>bottom</code>, and <code>left</code> properties to specify the position of an absolute element.</li>
+                </ul>
+            </div>
+
+            <div class="subsection">
+                <h4>CSS position: relative</h4>
+                <p>The <code>position: relative</code> property in CSS allows you to position an element relative to its normal position in the document flow. Here are some key points about relative positioning:</p>
+                <ul>
+                    <li>To use relative positioning, set the <code>position</code> property to <code>relative</code>.</li>
+                    <li>Relative elements are not removed from the normal document flow, so they still affect the position of other elements.</li>
+                    <li>You can use the <code>top</code>, <code>right</code>, <code>bottom</code>, and <code>left</code> properties to specify the position of a relative element.</li>
+                </ul>
+            </div>
+
+            <div class="subsection">
+                <h4>CSS float property</h4>
+                <p>The <code>float</code> property in CSS is used for positioning and formatting content, allowing text and inline elements to wrap around a floated element. Here are some key points about the float property:</p>
+                <ul>
+                    <li>To use the float property, set it to <code>left</code> or <code>right</code> to float an element to the left or right of its container.</li>
+                    <li>Floated elements are removed from the normal document flow, so they do not affect the position of other elements.</li>
+                    <li>To contain floated elements within a parent container, you can use the <code>clearfix</code> technique or set the parent's <code>overflow</code> property to <code>auto</code> or <code>hidden</code>.</li>
+                </ul>
+            </div>
+
+            <div class="subsection">
+                <h4>CSS clear property</h4>
+                <p>The <code>clear</code> property in CSS is used to control the behavior of floating elements. It specifies whether an element can be next to floating elements or must be moved below them. Here are some key points about the clear property:</p>
+                <ul>
+                    <li>To use the clear property, set it to <code>left</code>, <code>right</code>, <code>both</code>, or <code>none</code>.</li>
+                    <li>The <code>left</code> value prevents floating elements on the left side from affecting the element.</li>
+                    <li>The <code>right</code> value prevents floating elements on the right side from affecting the element.</li>
+                    <li>The <code>both</code> value prevents floating elements on both sides from affecting the element.</li>
+                    <li>The <code>none</code> value allows the element to be next to floating elements.</li>
+                </ul>
+            </div>
+        </article>
+    </section>
+</body>
+</html>
